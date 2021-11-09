@@ -1,0 +1,11 @@
+@import'partials/commons';
+@import'partials/header';
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+@import'partials/card';

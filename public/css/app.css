@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #4682B4;
+  color: white;
+  height: 60px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+input {
+  background-color: #4682B4;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+input::-moz-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+input:-ms-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+button {
+  padding: 3px 6px;
+  color: #4682B4;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+a {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ADD8E6;
+  width: 300px;
+  margin: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card span {
+  text-align: center;
+}
+
+.card .title {
+  font-size: 20px;
+}
+
